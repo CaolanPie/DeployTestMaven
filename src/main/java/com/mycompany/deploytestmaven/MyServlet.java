@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Caolán
  */
-@WebServlet(name = "MyServlet", urlPatterns = {"/MyServlet"})
+@WebServlet(name = "DeployTestMaven", urlPatterns = {"/DeployTestMaven"})
 public class MyServlet extends HttpServlet {
 
     /**
@@ -44,7 +44,7 @@ public class MyServlet extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet MyServlet at " + request.getContextPath() + "</h1>");
-            out.println("Version 1.0.3");
+            out.println("Version 1.0.4");
             out.println(today);
             out.println("</body>");
             out.println("</html>");
