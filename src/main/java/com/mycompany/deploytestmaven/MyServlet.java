@@ -44,7 +44,7 @@ public class MyServlet extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet MyServlet at " + request.getContextPath() + "</h1>");
-            out.println("Version 1.0.6");
+            out.println("Version 1.0.7");
             out.println(today);
             out.println("</body>");
             out.println("</html>");
